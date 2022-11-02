@@ -1,0 +1,504 @@
+.header{
+    width: 100%;
+}
+.firsthead{
+    width: 100%;
+    height: 60px;
+    padding: 10px 0 0 0px;
+    margin: 0 0 0 0;
+    display: flex;
+}
+.robort{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 0;
+    background-color: white;
+}
+.robort:hover{
+    transform: scale(1.2);
+    border-radius: 50%;
+    background-color:gold;
+}
+.firsthead-box{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 50px;
+    margin: 0px 0 0 0px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 3px;
+}
+.firsthead-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.firsthead-list-items{
+    display: flex;
+    width: 60px;
+    height: 50px;
+    margin: 0 50px 0 0;
+    list-style: none;
+}
+.firsthead-img{
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 0;
+    background-color: white;
+}
+.firsthead-list-items-link{
+    display: flex;
+    display: block;
+    text-decoration: none;
+    padding:0px 0px 0 0;
+    margin: 0 0px 0 0;
+    width: 70px;
+    height: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 55px;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+}
+.firsthead-list-items-link:hover{
+    transform: scale(1.2);
+    color: gold;
+  }
+.secondhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0 0 0;
+    width: 100%;
+    height: 100px;
+    border: black 1px solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.secondhead-robort{
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 10px 0 0;
+    background-color: white;
+}
+.secondhead-robort:hover{
+    transform: scale(1.2);
+    border-radius: 50%;
+    background-color:gold;
+}
+.secondhead-title{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 80px;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+}
+.thirdhead{
+    width: 100%;
+    height: 50px;
+    border: black 1px solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.thirdhead-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 0px 0 0 0px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 3px;
+}
+.thirdhead-list{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.thirdhead-list-items{
+    display: flex;
+    width: 90px;
+    height: 60px;
+    margin: 0 0px 0 0;
+    list-style: none;
+}
+.thirdhead-list-items-link{
+    display: flex;
+    display: block;
+    text-decoration: none;
+    padding:0px 0px 0 0;
+    margin: 0 0px 0 0;
+    width: 90px;
+    height: 60px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 55px;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+}
+.thirdhead-list-items-link:hover{
+    transform: scale(1.2);
+    color: gold;
+  }
+.article{
+    width: 100%;
+}
+.article-one{
+    width: 100%;
+    height: 700px;
+}
+.article-one{ position:relative;}
+.article-one img{
+    width: 100%;
+    height: 700px;
+    position:absolute;
+  /* 淡出淡入效果2秒 */
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.article-one img:last-child:hover{
+    /* 滑入時第一張透明度設0 */
+    opacity:0;}
+
+.article-two{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+.article-two-package{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    z-index: 20;
+}
+.article-two-rectangle{
+    width: 190px;
+    height: 40px;
+    background-color: gold;
+    margin: 0px 0 260px 218px;
+    position:absolute;
+    z-index:10;
+    left:1050px;
+}
+.youtube1{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+.article-two-slogan{
+    width: 300px;
+    height: 230px;
+    padding:0px 0px 0 0;
+    margin: 0 130px 100px 0;
+    font-family: Arial;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 55px; */
+    text-align: center;
+    letter-spacing: normal;
+    color: black;
+    border-left: gold 4px solid;
+    border-right: black 4px solid;
+}
+.article-two-slogan h1{
+    height: 80px;
+    margin: 0 0 0 0;
+    border-left: gold 8px solid;
+}
+.article-two-slogan h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin: 0px 0 0 0;
+    line-height: 30px;
+    border-right: black 8px solid;
+}
+.article-three{
+    height: 600px;
+    background-image:url(../images/image0\ \(5\).png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.article-three-slogan{
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 20px;
+    color: black;
+}
+.article-three h1{
+    padding:0px 0px 0 0;
+    margin: 10px 0px 0 10px;
+    font-family: Arial;
+    font-size: 80px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.article-three h3{
+    padding:0px 0px 0 0;
+    margin: 30px 0px 0 10px;
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.article-three h5{
+    padding:0px 0px 0 0;
+    margin: 50px 0px 0 0px;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.article-three h2{
+    padding:0px 0px 0 0;
+    margin: 130px 0px 0 30px;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: black;
+}
+.article-three h4{
+    padding:0px 0px 0 0;
+    margin: 10px 0px 0 30px;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: black;
+}
+.article-four{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article-four-package{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    z-index: 20;
+}
+.article-four-rectangle{
+    width: 230px;
+    height: 25px;
+    background-color: gold;
+    margin: 0px 0px 160px 55px;
+    position:absolute;
+    z-index:10;
+    left:170px;
+}
+.article-four-slogan{
+    width: 300px;
+    height: 230px;
+    padding:0px 0px 0 0;
+    margin: auto;
+    font-family: Arial;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 55px; */
+    text-align: center;
+    letter-spacing: normal;
+    color: black;
+    border-left : black 4px solid;
+    border-right : gold 4px solid;
+}
+.article-four-slogan h1{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left : black 8px solid;
+    margin: 0px 0 0 0;
+}
+.article-four-slogan h3{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    margin: 0px 0 0 0;
+    border-right : gold 8px solid;
+}
+.article-four-slogan h2{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0 0 0;
+    border-right : gold 8px solid;
+}
+.youtube2{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: gold;
+}
+.firstfooter{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstfooter-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 80px;
+    margin: 0px 0 0 0px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 3px;
+}
+.firstfooter-list{
+    display: flex;
+    padding: 0;
+    margin: 20px 0 0 40px;
+}
+.firstfooter-list-items{
+    display: flex;
+    width: 90px;
+    height: 60px;
+    margin: 0 0px 0 0;
+    list-style: none;
+}
+.firstfooter-img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 0 0 0;
+}
+.firstfooter-list-items-link{
+    display: flex;
+    display: block;
+    text-decoration: none;
+    padding:0px 0px 0 0;
+    margin: 0px 0px 0 0;
+    width: 50px;
+    height: 50px;
+}
+.firstfooter-list-items-link:hover{
+    transform: scale(1.2);
+    border-radius: 33%;
+    background-color: white;
+  }
+.secondfooter{
+    width: 100%;
+    height: 60px;
+}
+.secondfooter-box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin: 0px 0 0 0px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 3px;
+}
+.secondfooter-list{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.secondfooter-list-items{
+    display: flex;
+    width: 90px;
+    height: 60px;
+    margin: 0px 0px 0 0;
+    list-style: none;
+}
+.secondfooter-list-items-link{
+    display: flex;
+    display: block;
+    text-decoration: none;
+    padding:0px 0px 0 0;
+    margin: 0 0px 0 0;
+    width: 90px;
+    height: 60px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 55px;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+}
+.secondfooter-list-items-link:hover{
+    transform: scale(1.2);
+    color: black;
+  }
+.alarm{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.alarm-item{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.alarm-item p{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
