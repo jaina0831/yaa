@@ -200,10 +200,10 @@
     width: 190px;
     height: 40px;
     background-color: gold;
-    margin: 0px 0 260px 230px;
+    margin: 0px 0 260px 0px;
     position:absolute;
     z-index:10;
-    left:1050px;
+    margin-left:1050px;
 }
 .youtube1{
     width: 600px;
